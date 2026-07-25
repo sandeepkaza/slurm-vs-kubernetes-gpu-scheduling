@@ -1,0 +1,251 @@
+ts_ns,gpu,util,mem_mib
+1784873620288732815,0,0,0
+1784873620296597034,1,0,0
+1784873625342318386,0,0,0
+1784873625351396636,1,0,0
+1784873630398424612,0,0,0
+1784873630407356395,1,0,0
+1784873635451958007,0,0,0
+1784873635459837738,1,0,0
+1784873640503486223,0,100,21524
+1784873640511841943,1,0,0
+1784873645553446157,0,100,21524
+1784873645561754142,1,0,0
+1784873650607518973,0,100,21524
+1784873650614588706,1,0,0
+1784873655656580815,0,100,21524
+1784873655665594009,1,100,21524
+1784873660705579127,0,100,21524
+1784873660713145757,1,100,21524
+1784873665756145173,0,100,21524
+1784873665764211006,1,100,21524
+1784873670805604693,0,100,21524
+1784873670814424413,1,100,21524
+1784873675857601356,0,100,21524
+1784873675865739795,1,100,21524
+1784873680909672994,0,100,21524
+1784873680918509331,1,100,21524
+1784873685963130169,0,0,0
+1784873685971613800,1,0,0
+1784873691013763945,0,0,0
+1784873691022653728,1,0,0
+1784873696072347131,0,0,0
+1784873696080867496,1,0,0
+1784873701131250628,0,0,0
+1784873701139821007,1,0,0
+1784873706185605852,0,0,0
+1784873706194632641,1,7,436
+1784873711234952442,0,7,502
+1784873711243986984,1,100,21524
+1784873716289591358,0,100,21524
+1784873716297884804,1,100,21524
+1784873721338747599,0,100,0
+1784873721346672341,1,100,21524
+1784873726388871969,0,100,21524
+1784873726397231789,1,100,21524
+1784873731442709364,0,100,21524
+1784873731451332399,1,100,21524
+1784873736497449028,0,100,21524
+1784873736506601243,1,0,0
+1784873741551322120,0,100,21524
+1784873741560084590,1,0,0
+1784873746605438379,0,100,21524
+1784873746613764874,1,0,0
+1784873751655062938,0,0,0
+1784873751663633672,1,0,0
+1784873756707505246,0,0,0
+1784873756716322122,1,0,0
+1784873761763961581,0,0,0
+1784873761772308708,1,9,288
+1784873766821011156,0,0,0
+1784873766829842304,1,100,21524
+1784873771875995134,0,0,0
+1784873771884791594,1,100,21524
+1784873776927520395,0,0,0
+1784873776935045100,1,100,21524
+1784873781975691858,0,10,512
+1784873781984658822,1,9,498
+1784873787027959233,0,100,21524
+1784873787036695279,1,100,21524
+1784873792078207011,0,100,21524
+1784873792086619461,1,100,21524
+1784873797132310972,0,100,21524
+1784873797141078764,1,100,21524
+1784873802186224374,0,100,21524
+1784873802194964573,1,100,21524
+1784873807242341785,0,100,21524
+1784873807250437120,1,100,21524
+1784873812296093545,0,100,21524
+1784873812304974795,1,100,21524
+1784873817348498558,0,100,21524
+1784873817357298790,1,100,21524
+1784873822401378100,0,100,21524
+1784873822409779962,1,0,3
+1784873827436204749,Failed to initialize NVML: Driver/library version mismatch,,
+1784873827444265685,NVML library version: 580.173,,
+1784873832467475376,Failed to initialize NVML: Driver/library version mismatch,,
+1784873832474397190,NVML library version: 580.173,,
+1784873837500696757,Failed to initialize NVML: Driver/library version mismatch,,
+1784873837509226589,NVML library version: 580.173,,
+1784873842535954564,Failed to initialize NVML: Driver/library version mismatch,,
+1784873842544069627,NVML library version: 580.173,,
+1784873847566646775,Failed to initialize NVML: Driver/library version mismatch,,
+1784873847574708194,NVML library version: 580.173,,
+1784873852601092484,Failed to initialize NVML: Driver/library version mismatch,,
+1784873852608903060,NVML library version: 580.173,,
+1784873857634792578,Failed to initialize NVML: Driver/library version mismatch,,
+1784873857641814609,NVML library version: 580.173,,
+1784873862674197351,Failed to initialize NVML: Driver/library version mismatch,,
+1784873862685150596,NVML library version: 580.173,,
+1784873867706071797,Failed to initialize NVML: Driver/library version mismatch,,
+1784873867718740408,NVML library version: 580.173,,
+1784873872741787108,Failed to initialize NVML: Driver/library version mismatch,,
+1784873872750675953,NVML library version: 580.173,,
+1784873877776990925,Failed to initialize NVML: Driver/library version mismatch,,
+1784873877782864391,NVML library version: 580.173,,
+1784873882806014436,Failed to initialize NVML: Driver/library version mismatch,,
+1784873882813862928,NVML library version: 580.173,,
+1784873887836242914,Failed to initialize NVML: Driver/library version mismatch,,
+1784873887841604606,NVML library version: 580.173,,
+1784873892863562076,Failed to initialize NVML: Driver/library version mismatch,,
+1784873892871483786,NVML library version: 580.173,,
+1784873897898038321,Failed to initialize NVML: Driver/library version mismatch,,
+1784873897903256048,NVML library version: 580.173,,
+1784873902929475137,Failed to initialize NVML: Driver/library version mismatch,,
+1784873902942088449,NVML library version: 580.173,,
+1784873907963652105,Failed to initialize NVML: Driver/library version mismatch,,
+1784873907972746822,NVML library version: 580.173,,
+1784873912994247440,Failed to initialize NVML: Driver/library version mismatch,,
+1784873913002105018,NVML library version: 580.173,,
+1784873918030158536,Failed to initialize NVML: Driver/library version mismatch,,
+1784873918037206248,NVML library version: 580.173,,
+1784873923060293148,Failed to initialize NVML: Driver/library version mismatch,,
+1784873923067215431,NVML library version: 580.173,,
+1784873928091635500,Failed to initialize NVML: Driver/library version mismatch,,
+1784873928098546277,NVML library version: 580.173,,
+1784873933124503338,Failed to initialize NVML: Driver/library version mismatch,,
+1784873933129756270,NVML library version: 580.173,,
+1784873938155583640,Failed to initialize NVML: Driver/library version mismatch,,
+1784873938164358631,NVML library version: 580.173,,
+1784873943190054749,Failed to initialize NVML: Driver/library version mismatch,,
+1784873943197554967,NVML library version: 580.173,,
+1784873948223051522,Failed to initialize NVML: Driver/library version mismatch,,
+1784873948231413916,NVML library version: 580.173,,
+1784873953257513737,Failed to initialize NVML: Driver/library version mismatch,,
+1784873953266150305,NVML library version: 580.173,,
+1784873958285025299,Failed to initialize NVML: Driver/library version mismatch,,
+1784873958293578349,NVML library version: 580.173,,
+1784873963321993282,Failed to initialize NVML: Driver/library version mismatch,,
+1784873963330071673,NVML library version: 580.173,,
+1784873968355014232,Failed to initialize NVML: Driver/library version mismatch,,
+1784873968362721871,NVML library version: 580.173,,
+1784873973389326619,Failed to initialize NVML: Driver/library version mismatch,,
+1784873973398174015,NVML library version: 580.173,,
+1784873978424247428,Failed to initialize NVML: Driver/library version mismatch,,
+1784873978432165682,NVML library version: 580.173,,
+1784873983460421987,Failed to initialize NVML: Driver/library version mismatch,,
+1784873983469886890,NVML library version: 580.173,,
+1784873988494754290,Failed to initialize NVML: Driver/library version mismatch,,
+1784873988502427746,NVML library version: 580.173,,
+1784873993527155219,Failed to initialize NVML: Driver/library version mismatch,,
+1784873993535778347,NVML library version: 580.173,,
+1784873998560859486,Failed to initialize NVML: Driver/library version mismatch,,
+1784873998569506657,NVML library version: 580.173,,
+1784874003597799869,Failed to initialize NVML: Driver/library version mismatch,,
+1784874003605680561,NVML library version: 580.173,,
+1784874008629219412,Failed to initialize NVML: Driver/library version mismatch,,
+1784874008637981487,NVML library version: 580.173,,
+1784874013659254430,Failed to initialize NVML: Driver/library version mismatch,,
+1784874013667813200,NVML library version: 580.173,,
+1784874018692897879,Failed to initialize NVML: Driver/library version mismatch,,
+1784874018701045377,NVML library version: 580.173,,
+1784874023728764268,Failed to initialize NVML: Driver/library version mismatch,,
+1784874023737108937,NVML library version: 580.173,,
+1784874028763288127,Failed to initialize NVML: Driver/library version mismatch,,
+1784874028771130420,NVML library version: 580.173,,
+1784874033793579768,Failed to initialize NVML: Driver/library version mismatch,,
+1784874033802944849,NVML library version: 580.173,,
+1784874038828086895,Failed to initialize NVML: Driver/library version mismatch,,
+1784874038836951151,NVML library version: 580.173,,
+1784874043865325229,Failed to initialize NVML: Driver/library version mismatch,,
+1784874043873547512,NVML library version: 580.173,,
+1784874048898542173,Failed to initialize NVML: Driver/library version mismatch,,
+1784874048906718793,NVML library version: 580.173,,
+1784874053930072051,Failed to initialize NVML: Driver/library version mismatch,,
+1784874053937690338,NVML library version: 580.173,,
+1784874058962383966,Failed to initialize NVML: Driver/library version mismatch,,
+1784874058969626240,NVML library version: 580.173,,
+1784874063995050061,Failed to initialize NVML: Driver/library version mismatch,,
+1784874064002249340,NVML library version: 580.173,,
+1784874069028100989,Failed to initialize NVML: Driver/library version mismatch,,
+1784874069035525907,NVML library version: 580.173,,
+1784874074061806490,Failed to initialize NVML: Driver/library version mismatch,,
+1784874074070376712,NVML library version: 580.173,,
+1784874079096465325,Failed to initialize NVML: Driver/library version mismatch,,
+1784874079105484989,NVML library version: 580.173,,
+1784874084133730797,Failed to initialize NVML: Driver/library version mismatch,,
+1784874084141631555,NVML library version: 580.173,,
+1784874089167015467,Failed to initialize NVML: Driver/library version mismatch,,
+1784874089175338642,NVML library version: 580.173,,
+1784874094200616655,Failed to initialize NVML: Driver/library version mismatch,,
+1784874094209231440,NVML library version: 580.173,,
+1784874099234927267,Failed to initialize NVML: Driver/library version mismatch,,
+1784874099244254964,NVML library version: 580.173,,
+1784874104270278173,Failed to initialize NVML: Driver/library version mismatch,,
+1784874104279129416,NVML library version: 580.173,,
+1784874109307674688,Failed to initialize NVML: Driver/library version mismatch,,
+1784874109316715406,NVML library version: 580.173,,
+1784874114338923745,Failed to initialize NVML: Driver/library version mismatch,,
+1784874114347231882,NVML library version: 580.173,,
+1784874119373920853,Failed to initialize NVML: Driver/library version mismatch,,
+1784874119383008591,NVML library version: 580.173,,
+1784874124409712679,Failed to initialize NVML: Driver/library version mismatch,,
+1784874124417890884,NVML library version: 580.173,,
+1784874129443911197,Failed to initialize NVML: Driver/library version mismatch,,
+1784874129451983937,NVML library version: 580.173,,
+1784874134475893744,Failed to initialize NVML: Driver/library version mismatch,,
+1784874134483063914,NVML library version: 580.173,,
+1784874139506459157,Failed to initialize NVML: Driver/library version mismatch,,
+1784874139513700718,NVML library version: 580.173,,
+1784874144538961925,Failed to initialize NVML: Driver/library version mismatch,,
+1784874144547230134,NVML library version: 580.173,,
+1784874149571853666,Failed to initialize NVML: Driver/library version mismatch,,
+1784874149580124192,NVML library version: 580.173,,
+1784874154604929360,Failed to initialize NVML: Driver/library version mismatch,,
+1784874154612252044,NVML library version: 580.173,,
+1784874159640121026,Failed to initialize NVML: Driver/library version mismatch,,
+1784874159648703752,NVML library version: 580.173,,
+1784874164669648750,Failed to initialize NVML: Driver/library version mismatch,,
+1784874164677850622,NVML library version: 580.173,,
+1784874169704198779,Failed to initialize NVML: Driver/library version mismatch,,
+1784874169712780456,NVML library version: 580.173,,
+1784874174740381384,Failed to initialize NVML: Driver/library version mismatch,,
+1784874174746114654,NVML library version: 580.173,,
+1784874179766365350,Failed to initialize NVML: Driver/library version mismatch,,
+1784874179772486665,NVML library version: 580.173,,
+1784874184794522081,Failed to initialize NVML: Driver/library version mismatch,,
+1784874184801138915,NVML library version: 580.173,,
+1784874189825491098,Failed to initialize NVML: Driver/library version mismatch,,
+1784874189833873544,NVML library version: 580.173,,
+1784874194860110700,Failed to initialize NVML: Driver/library version mismatch,,
+1784874194867876391,NVML library version: 580.173,,
+1784874199892066613,Failed to initialize NVML: Driver/library version mismatch,,
+1784874199900057356,NVML library version: 580.173,,
+1784874204922454843,Failed to initialize NVML: Driver/library version mismatch,,
+1784874204929900651,NVML library version: 580.173,,
+1784874209956446837,Failed to initialize NVML: Driver/library version mismatch,,
+1784874209965088128,NVML library version: 580.173,,
+1784874214999968560,Failed to initialize NVML: Driver/library version mismatch,,
+1784874215006160660,NVML library version: 580.173,,
+1784874220032576250,Failed to initialize NVML: Driver/library version mismatch,,
+1784874220040625510,NVML library version: 580.173,,
+1784874225066222077,Failed to initialize NVML: Driver/library version mismatch,,
+1784874225076152122,NVML library version: 580.173,,
+1784874230099129976,Failed to initialize NVML: Driver/library version mismatch,,
+1784874230107284838,NVML library version: 580.173,,
+1784874235133147506,Failed to initialize NVML: Driver/library version mismatch,,
+1784874235141838363,NVML library version: 580.173,,
+1784874240167158097,Failed to initialize NVML: Driver/library version mismatch,,
+1784874240174805155,NVML library version: 580.173,,
+1784874245201104905,Failed to initialize NVML: Driver/library version mismatch,,
+1784874245208990273,NVML library version: 580.173,,

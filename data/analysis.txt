@@ -1,0 +1,64 @@
+
+### results_slurm  (40/40 jobs with complete timings)
+  queue wait s : med 717.64  p95 1331.78  max 1417.70  min 0.78
+  runtime s    : med 64.48  (requested burn med 25.5)
+  makespan s   : 1751.7
+  gpu-seconds  : 3389
+  width 1: n= 27 wait med   706.75  p95   984.40
+  width 2: n= 13 wait med   728.52  p95  1385.19
+  prio 0: n= 32 wait med   717.64  p95  1345.14
+  prio 1: n=  8 wait med   742.78  p95  1160.99
+  backfill inversions: 49/780 pairs (6.3%)
+  most-backfilled jobs: j017 (gpus=1, jumped 6), j038 (gpus=1, jumped 6), j039 (gpus=1, jumped 6)
+
+### results_slurm_preempt  (40/40 jobs with complete timings)
+  queue wait s : med 612.84  p95 1368.71  max 1710.94  min 0.26
+  runtime s    : med 62.22  (requested burn med 25.5)
+  makespan s   : 1810.0
+  gpu-seconds  : 3334
+  width 1: n= 27 wait med   511.84  p95   733.72
+  width 2: n= 13 wait med  1206.41  p95  1387.69
+  prio 0: n= 32 wait med   690.02  p95  1390.41
+  prio 1: n=  8 wait med    49.25  p95    75.25
+  backfill inversions: 283/780 pairs (36.3%)
+  most-backfilled jobs: j038 (gpus=1, jumped 32), j039 (gpus=1, jumped 32), j026 (gpus=2, jumped 21)
+
+### results_k8s  (40/40 jobs with complete timings)
+  queue wait s : med 527.71  p95 1414.02  max 1520.71  min 2.15
+  runtime s    : med 59.39  (requested burn med 25.5)
+  makespan s   : 1716.9
+  gpu-seconds  : 3164
+  width 1: n= 27 wait med   189.43  p95   651.33
+  width 2: n= 13 wait med  1182.22  p95  1485.89
+  prio 0: n= 32 wait med   511.88  p95  1434.50
+  prio 1: n=  8 wait med   527.71  p95  1078.74
+  backfill inversions: 312/780 pairs (40.0%)
+  most-backfilled jobs: j036 (gpus=1, jumped 21), j034 (gpus=1, jumped 20), j029 (gpus=1, jumped 19)
+
+### results_k8s_preempt  (4/40 jobs with complete timings)
+  queue wait s : med 3.24  p95 52.20  max 60.83  min 3.12
+  runtime s    : med 58.34  (requested burn med 25.0)
+  makespan s   : 211.5
+  gpu-seconds  : 302
+  width 1: n=  3 wait med     3.15  p95     3.30
+  width 2: n=  1 wait med    60.83  p95    60.83
+  backfill inversions: 1/6 pairs (16.7%)
+  most-backfilled jobs: j017 (gpus=1, jumped 1)
+
+### results_k8s_kueue  (40/40 jobs with complete timings)
+  queue wait s : med 424.56  p95 1337.36  max 1394.34  min 1.99
+  runtime s    : med 59.44  (requested burn med 25.5)
+  makespan s   : 1728.6
+  gpu-seconds  : 3164
+  width 1: n= 27 wait med   308.42  p95  1122.66
+  width 2: n= 13 wait med  1081.41  p95  1302.86
+  prio 0: n= 32 wait med   424.56  p95  1262.70
+  prio 1: n=  8 wait med   735.36  p95  1389.19
+  backfill inversions: 129/780 pairs (16.5%)
+  most-backfilled jobs: j036 (gpus=1, jumped 12), j034 (gpus=1, jumped 11), j029 (gpus=1, jumped 10)
+
+### cross-stack comparison
+  results_slurm_preempt vs results_slurm: wait med 612.84 vs 717.64 (0.85x)  |  makespan 1810.0 vs 1751.7 (1.03x)  |  backfill 36.3% vs 6.3%
+  results_k8s vs results_slurm: wait med 527.71 vs 717.64 (0.74x)  |  makespan 1716.9 vs 1751.7 (0.98x)  |  backfill 40.0% vs 6.3%
+  results_k8s_preempt vs results_slurm: wait med 3.24 vs 717.64 (0.00x)  |  makespan 211.5 vs 1751.7 (0.12x)  |  backfill 16.7% vs 6.3%
+  results_k8s_kueue vs results_slurm: wait med 424.56 vs 717.64 (0.59x)  |  makespan 1728.6 vs 1751.7 (0.99x)  |  backfill 16.5% vs 6.3%

@@ -1,0 +1,293 @@
+{
+ "meta": {
+  "seed": 20260723,
+  "rate_per_s": 0.15,
+  "host_gpus": 2,
+  "n_jobs": 40,
+  "span_s": 295.929,
+  "gpu_seconds": 1369,
+  "offered_load": 2.3130548205819643
+ },
+ "jobs": [
+  {
+   "id": "j000",
+   "arrival_s": 6.474,
+   "gpus": 1,
+   "burn_s": 35,
+   "priority": 1
+  },
+  {
+   "id": "j001",
+   "arrival_s": 23.904,
+   "gpus": 1,
+   "burn_s": 20,
+   "priority": 0
+  },
+  {
+   "id": "j002",
+   "arrival_s": 28.676,
+   "gpus": 1,
+   "burn_s": 28,
+   "priority": 0
+  },
+  {
+   "id": "j003",
+   "arrival_s": 40.076,
+   "gpus": 1,
+   "burn_s": 35,
+   "priority": 0
+  },
+  {
+   "id": "j004",
+   "arrival_s": 47.142,
+   "gpus": 1,
+   "burn_s": 23,
+   "priority": 0
+  },
+  {
+   "id": "j005",
+   "arrival_s": 52.003,
+   "gpus": 1,
+   "burn_s": 31,
+   "priority": 0
+  },
+  {
+   "id": "j006",
+   "arrival_s": 60.812,
+   "gpus": 2,
+   "burn_s": 20,
+   "priority": 0
+  },
+  {
+   "id": "j007",
+   "arrival_s": 63.219,
+   "gpus": 1,
+   "burn_s": 19,
+   "priority": 0
+  },
+  {
+   "id": "j008",
+   "arrival_s": 64.703,
+   "gpus": 1,
+   "burn_s": 22,
+   "priority": 0
+  },
+  {
+   "id": "j009",
+   "arrival_s": 65.894,
+   "gpus": 2,
+   "burn_s": 32,
+   "priority": 0
+  },
+  {
+   "id": "j010",
+   "arrival_s": 74.531,
+   "gpus": 1,
+   "burn_s": 34,
+   "priority": 0
+  },
+  {
+   "id": "j011",
+   "arrival_s": 74.88,
+   "gpus": 1,
+   "burn_s": 18,
+   "priority": 1
+  },
+  {
+   "id": "j012",
+   "arrival_s": 75.429,
+   "gpus": 1,
+   "burn_s": 26,
+   "priority": 0
+  },
+  {
+   "id": "j013",
+   "arrival_s": 79.086,
+   "gpus": 2,
+   "burn_s": 29,
+   "priority": 0
+  },
+  {
+   "id": "j014",
+   "arrival_s": 81.4,
+   "gpus": 2,
+   "burn_s": 20,
+   "priority": 0
+  },
+  {
+   "id": "j015",
+   "arrival_s": 90.393,
+   "gpus": 2,
+   "burn_s": 31,
+   "priority": 0
+  },
+  {
+   "id": "j016",
+   "arrival_s": 92.606,
+   "gpus": 2,
+   "burn_s": 31,
+   "priority": 1
+  },
+  {
+   "id": "j017",
+   "arrival_s": 93.085,
+   "gpus": 1,
+   "burn_s": 19,
+   "priority": 1
+  },
+  {
+   "id": "j018",
+   "arrival_s": 93.387,
+   "gpus": 1,
+   "burn_s": 34,
+   "priority": 0
+  },
+  {
+   "id": "j019",
+   "arrival_s": 109.826,
+   "gpus": 1,
+   "burn_s": 33,
+   "priority": 0
+  },
+  {
+   "id": "j020",
+   "arrival_s": 143.905,
+   "gpus": 2,
+   "burn_s": 25,
+   "priority": 0
+  },
+  {
+   "id": "j021",
+   "arrival_s": 147.986,
+   "gpus": 1,
+   "burn_s": 17,
+   "priority": 0
+  },
+  {
+   "id": "j022",
+   "arrival_s": 151.23,
+   "gpus": 1,
+   "burn_s": 33,
+   "priority": 0
+  },
+  {
+   "id": "j023",
+   "arrival_s": 156.639,
+   "gpus": 1,
+   "burn_s": 20,
+   "priority": 0
+  },
+  {
+   "id": "j024",
+   "arrival_s": 163.726,
+   "gpus": 1,
+   "burn_s": 23,
+   "priority": 1
+  },
+  {
+   "id": "j025",
+   "arrival_s": 165.132,
+   "gpus": 2,
+   "burn_s": 29,
+   "priority": 0
+  },
+  {
+   "id": "j026",
+   "arrival_s": 201.521,
+   "gpus": 2,
+   "burn_s": 15,
+   "priority": 1
+  },
+  {
+   "id": "j027",
+   "arrival_s": 206.963,
+   "gpus": 1,
+   "burn_s": 28,
+   "priority": 0
+  },
+  {
+   "id": "j028",
+   "arrival_s": 208.132,
+   "gpus": 2,
+   "burn_s": 31,
+   "priority": 0
+  },
+  {
+   "id": "j029",
+   "arrival_s": 211.533,
+   "gpus": 1,
+   "burn_s": 28,
+   "priority": 0
+  },
+  {
+   "id": "j030",
+   "arrival_s": 213.869,
+   "gpus": 1,
+   "burn_s": 33,
+   "priority": 0
+  },
+  {
+   "id": "j031",
+   "arrival_s": 224.349,
+   "gpus": 1,
+   "burn_s": 22,
+   "priority": 0
+  },
+  {
+   "id": "j032",
+   "arrival_s": 228.188,
+   "gpus": 1,
+   "burn_s": 15,
+   "priority": 0
+  },
+  {
+   "id": "j033",
+   "arrival_s": 234.844,
+   "gpus": 2,
+   "burn_s": 19,
+   "priority": 0
+  },
+  {
+   "id": "j034",
+   "arrival_s": 241.995,
+   "gpus": 1,
+   "burn_s": 27,
+   "priority": 0
+  },
+  {
+   "id": "j035",
+   "arrival_s": 259.219,
+   "gpus": 2,
+   "burn_s": 34,
+   "priority": 0
+  },
+  {
+   "id": "j036",
+   "arrival_s": 268.156,
+   "gpus": 1,
+   "burn_s": 25,
+   "priority": 0
+  },
+  {
+   "id": "j037",
+   "arrival_s": 277.826,
+   "gpus": 2,
+   "burn_s": 23,
+   "priority": 0
+  },
+  {
+   "id": "j038",
+   "arrival_s": 281.327,
+   "gpus": 1,
+   "burn_s": 25,
+   "priority": 1
+  },
+  {
+   "id": "j039",
+   "arrival_s": 295.929,
+   "gpus": 1,
+   "burn_s": 18,
+   "priority": 1
+  }
+ ]
+}
