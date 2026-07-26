@@ -1,41 +1,62 @@
-% NOT web-verified by tooling. The author must open and read every entry
-% before submission (see the pre-submission gate in paper.tex).
+% Web-verified 2026-07-26 against ACM DL / Springer / dblp / project repos.
+% Corrections applied that run:
+%   - volcano2020: was @inproceedings by "Xu, Klaus and others" in "CNCF /
+%     KubeCon technical reports" — no such paper exists. Volcano is a CNCF
+%     project, and paper.tex cites it as a gang-scheduling ADD-ON alongside
+%     Kueue and Coscheduling, not as a study. Retyped @misc citing the project
+%     itself; the invented author and venue are gone. (Key kept so paper.tex
+%     needs no edit.)
+%   - burns2016borg: booktitle was "ACM Queue / Communications of the ACM" —
+%     two different venues hedged together. It is a CACM article; retyped
+%     @article with DOI.
+%   - yoo2003slurm: was @article with journal = "JSSPP, LNCS". JSSPP is a
+%     workshop with LNCS proceedings; retyped @inproceedings with DOI.
+%   - gpuburn: author was "Timonin, Ville (wilicc)". The repository states only
+%     the handle "wilicc", so the unverified real name (likely a misspelling of
+%     Ville Timonen) has been dropped in favour of the handle we can verify.
+%   - verma/tirmazi/feitelson: verified; DOIs added where they exist.
 
-@article{yoo2003slurm,
+@inproceedings{yoo2003slurm,
   author    = {Yoo, Andy B. and Jette, Morris A. and Grondona, Mark},
-  title     = {SLURM: Simple Linux Utility for Resource Management},
-  journal   = {Job Scheduling Strategies for Parallel Processing (JSSPP), LNCS},
+  title     = {{SLURM}: Simple Linux Utility for Resource Management},
+  booktitle = {Job Scheduling Strategies for Parallel Processing (JSSPP)},
+  series    = {Lecture Notes in Computer Science},
   volume    = {2862},
   pages     = {44--60},
-  year      = {2003}
+  year      = {2003},
+  doi       = {10.1007/10968987_3}
 }
 
-@inproceedings{burns2016borg,
-  author    = {Burns, Brendan and Grant, Brian and Oppenheimer, David and
-               Brewer, Eric and Wilkes, John},
-  title     = {Borg, Omega, and Kubernetes},
-  booktitle = {ACM Queue / Communications of the ACM},
-  volume    = {59},
-  number    = {5},
-  pages     = {50--57},
-  year      = {2016}
+@article{burns2016borg,
+  author  = {Burns, Brendan and Grant, Brian and Oppenheimer, David and
+             Brewer, Eric and Wilkes, John},
+  title   = {Borg, Omega, and Kubernetes},
+  journal = {Communications of the ACM},
+  volume  = {59},
+  number  = {5},
+  pages   = {50--57},
+  year    = {2016},
+  doi     = {10.1145/2890784}
 }
 
 @inproceedings{verma2015borg,
   author    = {Verma, Abhishek and Pedrosa, Luis and Korupolu, Madhukar and
                Oppenheimer, David and Tune, Eric and Wilkes, John},
   title     = {Large-scale Cluster Management at Google with Borg},
-  booktitle = {Proc.\ European Conference on Computer Systems (EuroSys)},
-  year      = {2015}
+  booktitle = {Proc.\ 10th European Conference on Computer Systems (EuroSys)},
+  year      = {2015},
+  doi       = {10.1145/2741948.2741964}
 }
 
 @inproceedings{feitelson2005backfill,
   author    = {Feitelson, Dror G. and Rudolph, Larry and Schwiegelshohn, Uwe},
   title     = {Parallel Job Scheduling --- A Status Report},
-  booktitle = {Job Scheduling Strategies for Parallel Processing (JSSPP), LNCS},
+  booktitle = {Job Scheduling Strategies for Parallel Processing (JSSPP)},
+  series    = {Lecture Notes in Computer Science},
   volume    = {3277},
   pages     = {1--16},
-  year      = {2005}
+  year      = {2005},
+  doi       = {10.1007/11407522_1}
 }
 
 @inproceedings{feitelson1998backfill,
@@ -44,7 +65,8 @@
                with Backfilling},
   booktitle = {Proc.\ International Parallel Processing Symposium (IPPS)},
   pages     = {542--546},
-  year      = {1998}
+  year      = {1998},
+  doi       = {10.1109/IPPS.1998.669970}
 }
 
 @inproceedings{tirmazi2020borg,
@@ -52,8 +74,9 @@
                Haque, Md E. and Qin, Zhijing Gene and Hand, Steven and
                Harchol-Balter, Mor and Wilkes, John},
   title     = {Borg: The Next Generation},
-  booktitle = {Proc.\ European Conference on Computer Systems (EuroSys)},
-  year      = {2020}
+  booktitle = {Proc.\ 15th European Conference on Computer Systems (EuroSys)},
+  year      = {2020},
+  doi       = {10.1145/3342195.3387517}
 }
 
 @misc{kueue,
@@ -61,30 +84,34 @@
   title        = {Kueue: Kubernetes-native Job Queueing (v0.8.1)},
   howpublished = {\url{https://kueue.sigs.k8s.io/}},
   year         = {2026},
-  note         = {Version pinned for this study}
+  note         = {Version pinned for this study; accessed 2026-07-26}
 }
 
-@inproceedings{volcano2020,
-  author    = {Xu, Klaus and others},
-  title     = {Volcano: Collision-free Gang Scheduling for High-performance
-               Workloads on Kubernetes},
-  booktitle = {CNCF / KubeCon technical reports},
-  year      = {2020},
-  note      = {Grey literature --- verify citation form before submission}
+@misc{volcano2020,
+  author       = {{The Volcano Authors (CNCF)}},
+  title        = {Volcano: A Cloud Native Batch System for High-Performance
+                  Workloads on Kubernetes},
+  howpublished = {\url{https://volcano.sh/}},
+  year         = {2026},
+  note         = {CNCF project (originally contributed by Huawei, accepted by
+                  CNCF 2020); provides PodGroup-based gang scheduling.
+                  Accessed 2026-07-26}
 }
 
 @misc{k3s,
   author       = {{Rancher / SUSE}},
   title        = {k3s: Lightweight Kubernetes (v1.36)},
   howpublished = {\url{https://k3s.io/}},
-  year         = {2026}
+  year         = {2026},
+  note         = {Accessed 2026-07-26}
 }
 
 @misc{nvdeviceplugin,
   author       = {{NVIDIA}},
   title        = {NVIDIA Device Plugin for Kubernetes},
   howpublished = {\url{https://github.com/NVIDIA/k8s-device-plugin}},
-  year         = {2026}
+  year         = {2026},
+  note         = {Accessed 2026-07-26}
 }
 
 @misc{slinky,
@@ -92,13 +119,14 @@
   title        = {Slinky: Slurm on Kubernetes},
   howpublished = {\url{https://github.com/SlinkyProject}},
   year         = {2025},
-  note         = {Verify citation form before submission}
+  note         = {Accessed 2026-07-26}
 }
 
 @misc{gpuburn,
-  author       = {Timonin, Ville (wilicc)},
-  title        = {gpu-burn: Multi-GPU CUDA stress test},
+  author       = {{wilicc}},
+  title        = {gpu-burn: Multi-GPU {CUDA} stress test},
   howpublished = {\url{https://github.com/wilicc/gpu-burn}},
   year         = {2026},
-  note         = {Workload used as the identical binary across stacks}
+  note         = {BSD-2-Clause. Workload used as the identical binary across
+                  both stacks; accessed 2026-07-26}
 }
