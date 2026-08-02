@@ -2,11 +2,11 @@
 
 Companion artifact for the paper **"Slurm or Kubernetes for GPU Clusters? A Same-Host, Same-Trace Measurement of Scheduling Behavior"**.
 
-Same-host, same-trace measurement of Slurm vs Kubernetes (and Kueue) GPU scheduling: queue wait, gang scheduling, and preemption, with GPU-utilization traces gating every leg.
+Same-host, same-trace measurement of Slurm vs Kubernetes (and Kueue) GPU scheduling: queue wait, gang scheduling, and preemption, with GPU-utilization traces gating every sampler-equipped leg.
 
 ## What's here
 
-`data/results_*.csv` — per-job timings for all 5 legs. `data/gpuutil_*.csv` — GPU-utilization traces proving each leg loaded the GPUs. `data/trace.json` — the seeded job trace. `harness/` — trace generator, stack installers, submit/measure drivers.
+`data/results_*.csv` — per-job timings for all 5 legs. `data/gpuutil_*.csv` — GPU-utilization traces proving each sampled leg loaded the GPUs (4 of the 5 legs; the plain Slurm baseline's saturation figure is instead a GPU-seconds/makespan calculation — see the paper's Validation Gate section). `data/trace.json` — the seeded job trace. `harness/` — trace generator, stack installers, submit/measure drivers.
 
 ## Reproduce
 
